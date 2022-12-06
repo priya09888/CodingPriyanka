@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PageNumber1</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Weather.css">
+
+</head>
+<body>
+	<main>
+		<div class="row" style="text-align: center;">
+			<form action="">
+			<input type="text" name="text" id="search"   placeholder="search by city name">
+			<!-- <input type="text" name=""> -->
+              </form>
+		</div>
+		<div class="row" id="weather">
+			<!-- <div>
+				<img src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png" height="30px" width="30px">
+			</div>
+			<div>
+				<h2>32°C</h2>
+				<h4>clear</h4>
+			</div> -->
+			
+		</div>
+	</main>
+	<script src="Weather.js"></script>
+	
+
+	<!-- https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+       51024565e87a5639fd36b13fa2d4f22e-->
+</body>
+</html>
+
+
+const IMG_URL = `https: //openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
